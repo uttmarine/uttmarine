@@ -1641,5 +1641,13 @@ iframe
    margin-top: 80px;
    margin-bottom: 80px;
 }
+
+  .carousel-page
+  {
+  width:100%;
+  height:100%;
+  background-color:#5f666d;
+  color:white;
+  }
 /*# sourceMappingURL=style.css.map */
 
