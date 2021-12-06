@@ -1675,3 +1675,19 @@ iframe
   margin-left: 10%;
   margin-right: 10%;
 }
+.title-partners {
+  margin-top: 50px;
+  background: #f4f4f4 ;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 150px;
+  display: table;
+  width: 100%;
+}
+
+.title-partners span {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
