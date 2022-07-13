@@ -60,8 +60,9 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -720,7 +721,7 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 20px;
   left: 20px;
   bottom: 50px;
-  color: #fff;
+  color: black;
   margin: 0;
   padding: 0;
   opacity: 1;
@@ -731,6 +732,15 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
+.legendeHugo {
+  color:  #fff  !important;
+}
+
+
+
+/* STYLE DES LEGENDES DE PHOTOS D'EQUIPE A CHANGER DU BLANC*/
+
 .fh5co-project > a span {
   font-size: 14px;
   bottom: 20px;
@@ -1196,6 +1206,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-footer .copyright .block {
   display: block;
+  text-align: center;
 }
 
 #map {
@@ -1651,3 +1662,22 @@ iframe
   }
 /*# sourceMappingURL=style.css.map */
 
+.listeSpecialites {
+  margin-left: 15px;
+  padding-left: 10px;
+}
+.fh5co-bg-section .container .container-fluid .fh5co-heading h4 {
+  margin-top: 30px; 
+  margin-bottom: -90px;
+}
+
+.partners {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.title-partners {
+  margin-top: 50px;
+  text-align: center;
+  min-height: 100px;
+  width: 100%;
+}
