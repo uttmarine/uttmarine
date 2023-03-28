@@ -5,6 +5,30 @@
   font-weight: normal;
   font-style: normal;
 }
+
+blockquote {
+  padding: 0 15px;
+  margin: 0 0 20px;
+  font-style: italic;
+  font-size: large;
+}
+
+blockquote ::before {
+  content: "\201C";
+  font-size: 50px;
+  line-height: 0.1;
+  margin-right: 10px;
+  vertical-align: -0.4em;
+}
+
+blockquote ::after {
+  content: "\201D";
+  font-size: 50px;
+  line-height: 0.1;
+  margin-left: 10px;
+  vertical-align: -0.4em;
+}
+
 /* =======================================================
 *
 * 	Template Style 
